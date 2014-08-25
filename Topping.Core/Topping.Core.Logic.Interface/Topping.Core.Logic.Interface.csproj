@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E8D78B5E-7E1A-45DD-BA99-89079E11AC98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Topping.Core.Logic.Interface</RootNamespace>
+    <AssemblyName>Topping.Core.Logic.Interface</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IProxy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Topping\TopMachine.Desktop.Common\TopMachine.Topping.Common.csproj">
+      <Project>{3C5B3D58-D666-465D-B56A-B6736B16FEF6}</Project>
+      <Name>TopMachine.Topping.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Topping\TopMachine.Topping.Dto\TopMachine.Topping.Dto.csproj">
+      <Project>{55230B09-84C7-4805-A2F6-BB7885BB3F2D}</Project>
+      <Name>TopMachine.Topping.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Topping.Core.Logic.SQL\Topping.Core.Logic.SQL.csproj">
+      <Project>{AEF620AB-BF36-4061-AF20-348B55F3CD62}</Project>
+      <Name>Topping.Core.Logic.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Topping.Core.Logic\Topping.Core.Logic.csproj">
+      <Project>{456CD0AD-DCC9-48AD-A280-93FECEB12E0F}</Project>
+      <Name>Topping.Core.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Global\toolsMono\toolsMono.csproj">
+      <Project>{E8910F91-29F8-4A7D-97B1-DE0818A3BD33}</Project>
+      <Name>toolsMono</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E874C31A-817F-4C49-8F64-62792C7AE30B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TopMachine.Training.FrontEnd</RootNamespace>
+    <AssemblyName>TopMachine.Training.FrontEnd</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\TopMachine.Training.FrontEnd.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\TopMachine.Training.FrontEnd.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\TopMachine.Training.FrontEnd.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\TopMachine.Training.FrontEnd.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <HintPath>C:\Program Files %28x86%29\Mono-3.2.3\lib\mono\gac\EntityFramework\6.0.0.0__b77a5c561934e089\EntityFramework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\LetterPlacer.cs" />
+    <Compile Include="DropDownPairs.cs" />
+    <Compile Include="ExportForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExportForm.Designer.cs">
+      <DependentUpon>ExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElementListe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ElementListe.Designer.cs">
+      <DependentUpon>ElementListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateDicoForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GenerateDicoForm.Designer.cs">
+      <DependentUpon>GenerateDicoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WordPlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImportForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImportForm.Designer.cs">
+      <DependentUpon>ImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegExExamples.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegExExamples.Designer.cs">
+      <DependentUpon>RegExExamples.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainingConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrainingConfig.Designer.cs">
+      <DependentUpon>TrainingConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrainingGame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrainingGame.Designer.cs">
+      <DependentUpon>TrainingGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainingSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrainingSelection.Designer.cs">
+      <DependentUpon>TrainingSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainingForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrainingForm.Designer.cs">
+      <DependentUpon>TrainingForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\TopMachine.Desktop.Dico\TopMachine.Desktop.Dico.csproj">
+      <Project>{E9118256-33A6-4A9D-A84A-DAB1FC958BD5}</Project>
+      <Name>TopMachine.Desktop.Dico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Packaging\CMWA.Desktop.Tools\CMWA.Packager.Tools.csproj">
+      <Project>{0A049445-8AC6-4408-B242-BBD710C86F52}</Project>
+      <Name>CMWA.Packager.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Global\TopMachine.Desktop.Controls\TopMachine.Desktop.Controls.csproj">
+      <Project>{7BFD9931-C8B2-430B-B47B-AB4D28E417CB}</Project>
+      <Name>TopMachine.Desktop.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Global\TopMachine.Desktop.Overall\TopMachine.Desktop.Overall.csproj">
+      <Project>{32BFD672-3F80-48DD-9AEA-27E8F10C8B03}</Project>
+      <Name>TopMachine.Desktop.Overall</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Topping\TopMachine.Desktop.Common\TopMachine.Topping.Common.csproj">
+      <Project>{3C5B3D58-D666-465D-B56A-B6736B16FEF6}</Project>
+      <Name>TopMachine.Topping.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Topping\TopMachine.Desktop.DAL\TopMachine.Topping.DAL.csproj">
+      <Project>{07458E6F-DDFC-4BA8-A432-EE504F41BEE8}</Project>
+      <Name>TopMachine.Topping.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Topping\TopMachine.Desktop.Dawg.Safe\TopMachine.Topping.Dawg.Safe.csproj">
+      <Project>{A69BD013-6994-4593-A72D-E7E53E29BEBC}</Project>
+      <Name>TopMachine.Topping.Dawg.Safe</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Packaging\CMWA.Packager\CMWA.Packager.csproj">
+      <Project>{DED608D7-2A2D-4B4A-882F-1F7065ED4419}</Project>
+      <Name>CMWA.Packager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TopMachine.Training.DAL.4dbo\TopMachine.Training.DAL.4dbo.csproj">
+      <Project>{3DAF01AD-DD07-4D1C-BF6B-308C07905948}</Project>
+      <Name>TopMachine.Training.DAL.4dbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Packaging\CMWA.Packager.Custom\CMWA.Packager.Custom.csproj">
+      <Project>{30752819-A46D-49F7-9E8B-BD217071E967}</Project>
+      <Name>CMWA.Packager.Custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Global\toolsMono\toolsMono.csproj">
+      <Project>{E8910F91-29F8-4A7D-97B1-DE0818A3BD33}</Project>
+      <Name>toolsMono</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\TopMachine.Training.DAL.GameConfig.datasource" />
+    <None Include="Properties\DataSources\TopMachine.Training.DAL.ListConfig.datasource" />
+    <None Include="TrainingConfig.resx" />
+    <None Include="WordPlayer.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <EmbeddedResource Include="TrainingGame.resx" />
+    <EmbeddedResource Include="TrainingForm.resx" />
+    <EmbeddedResource Include="TrainingSelection.resx" />
+    <EmbeddedResource Include="RegExExamples.resx" />
+    <EmbeddedResource Include="ImportForm.resx" />
+    <EmbeddedResource Include="GenerateDicoForm.resx" />
+    <EmbeddedResource Include="ExportForm.resx" />
+    <EmbeddedResource Include="ElementListe.resx" />
+  </ItemGroup>
+</Project>
